@@ -8,21 +8,28 @@ class HelloWorld extends React.Component{
   }
 
   togleShow = () => {
-    this.setState({show : false})
+    this.setState({show : !this.state.show})
   }
 
   render() {
     if(this.state.show){
     return(
-      <div id="hello">
+      <div id="hello" class="hello">
          <h3>{this.props.subtitle}</h3>
         {this.props.mytext}
-        <button onClick={() => this.togleShow}>Toggle Show</button>
+        <br/>
+        <button onClick={this.togleShow}>Toggle Show</button>
 
       </div>
     )
     }else{
-      return <h1>Thare are no elements!</h1>
+      return (
+        <div>
+          <h1>Thare are no elements!</h1>
+          <br/>
+          <button onClick={this.togleShow}>Toggle Show</button>
+        </div>
+      );
     }
   }
 }
@@ -30,13 +37,11 @@ class HelloWorld extends React.Component{
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+     
       <HelloWorld subtitle = "David" mytext ="Sheriff" />
-      </header>
+      <HelloWorld subtitle = "Nuria" mytext ="Jefa" />
+      <HelloWorld subtitle = "Unai" mytext ="Vástago" />
+   
     </div>
   );
 }
