@@ -1,0 +1,12 @@
+C:\SRC\AVA.Labs\ReactIdentity\DataModel\obj\Debug\netcoreapp3.1\DataModel.AssemblyInfoInputs.cache
+C:\SRC\AVA.Labs\ReactIdentity\DataModel\obj\Debug\netcoreapp3.1\DataModel.AssemblyInfo.cs
+C:\SRC\AVA.Labs\ReactIdentity\DataModel\obj\Debug\netcoreapp3.1\DataModel.csproj.CoreCompileInputs.cache
+C:\SRC\AVA.Labs\ReactIdentity\DataModel\bin\Debug\netcoreapp3.1\DataModel.deps.json
+C:\SRC\AVA.Labs\ReactIdentity\DataModel\bin\Debug\netcoreapp3.1\DataModel.dll
+C:\SRC\AVA.Labs\ReactIdentity\DataModel\bin\Debug\netcoreapp3.1\DataModel.runtimeconfig.json
+C:\SRC\AVA.Labs\ReactIdentity\DataModel\bin\Debug\netcoreapp3.1\DataModel.runtimeconfig.dev.json
+C:\SRC\AVA.Labs\ReactIdentity\DataModel\bin\Debug\netcoreapp3.1\DataModel.pdb
+C:\SRC\AVA.Labs\ReactIdentity\DataModel\obj\Debug\netcoreapp3.1\DataModel.dll
+C:\SRC\AVA.Labs\ReactIdentity\DataModel\obj\Debug\netcoreapp3.1\DataModel.pdb
+C:\SRC\AVA.Labs\ReactIdentity\DataModel\obj\Debug\netcoreapp3.1\DataModel.genruntimeconfig.cache
+C:\SRC\AVA.Labs\ReactIdentity\DataModel\obj\Debug\netcoreapp3.1\DataModel.csprojAssemblyReference.cache
