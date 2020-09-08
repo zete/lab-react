@@ -11,24 +11,36 @@ class Hello extends Component {
 class Text extends Component {
   render() {
 
-    const textoSegunBool = this.props.isActivated ? 'On' : 'Off'
+    // Para no andar repitiendo todo el rato "this.props.text, etc"
+    const 
+    {
+      text,
+      number,
+      arrayOfNumbers,
+      objetoConInformacion,
+      isActivated,
+      titleInHTML
+    } = this.props
+
+    const textoSegunBool = isActivated ? 'On' : 'Off'
 
     // Multiplico cada número del array por 2
-    const mappedNumbers = this.props.arrayOfNumbers.map(n=> n * 2)
+    const mappedNumbers = arrayOfNumbers.map(n => n * 2)
 
     return (
       <div>
-        <p>{this.props.text}</p>
-        <p>{this.props.number}</p>
+        {titleInHTML}
+        <p>{text}</p>
+        <p>{number}</p>
         <p>{textoSegunBool}</p>
 
         {/* El join hace que cada elemento del array se le ponga una coma */}
-        <p>{this.props.arrayOfNumbers.join(', ')}</p>
+        <p>{arrayOfNumbers.join(', ')}</p>
         <p>{mappedNumbers.join(', ')}</p>
 
         {/* Objeto pasado como prop */}
-        <p>{this.props.objetoConInformacion.key}</p>
-        <p>{this.props.objetoConInformacion.key2}</p>
+        <p>{objetoConInformacion.key}</p>
+        <p>{objetoConInformacion.key2}</p>
 
 
       </div>
@@ -57,7 +69,8 @@ function App() {
         number={15}
         isActivated={true}
         arrayOfNumbers={[2, 3, 4]}
-        objetoConInformacion = {  {key: 'valor', key2: 'otrovalor'}  }
+        objetoConInformacion={{ key: 'valor', key2: 'otrovalor' }}
+        titleInHTML = {<h1>Súper título</h1>}
 
       />
 
