@@ -25,6 +25,12 @@ class Text extends Component {
         {/* El join hace que cada elemento del array se le ponga una coma */}
         <p>{this.props.arrayOfNumbers.join(', ')}</p>
         <p>{mappedNumbers.join(', ')}</p>
+
+        {/* Objeto pasado como prop */}
+        <p>{this.props.objetoConInformacion.key}</p>
+        <p>{this.props.objetoConInformacion.key2}</p>
+
+
       </div>
     )
 
@@ -51,6 +57,7 @@ function App() {
         number={15}
         isActivated={true}
         arrayOfNumbers={[2, 3, 4]}
+        objetoConInformacion = {  {key: 'valor', key2: 'otrovalor'}  }
 
       />
 
