@@ -7,6 +7,9 @@ class Hello extends Component {
     return <h2>{this.props.title}</h2>
   }
 }
+Hello.defaultProps = {
+  title : 'Título por defecto'
+}
 
 class Text extends Component {
   render() {
@@ -63,6 +66,7 @@ function App() {
       </header>
 
       <Hello title="Dentro en el componente"></Hello>
+      <Hello />
 
       <Text
         text='Texto del componente'
