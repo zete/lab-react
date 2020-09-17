@@ -1,8 +1,0 @@
-C:\SRC\AVA.Labs\ReactIdentity\Domain\bin\Debug\netcoreapp3.1\Data.Domain.deps.json
-C:\SRC\AVA.Labs\ReactIdentity\Domain\bin\Debug\netcoreapp3.1\Data.Domain.dll
-C:\SRC\AVA.Labs\ReactIdentity\Domain\bin\Debug\netcoreapp3.1\Data.Domain.pdb
-C:\SRC\AVA.Labs\ReactIdentity\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
-C:\SRC\AVA.Labs\ReactIdentity\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
-C:\SRC\AVA.Labs\ReactIdentity\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
-C:\SRC\AVA.Labs\ReactIdentity\Domain\obj\Debug\netcoreapp3.1\Data.Domain.dll
-C:\SRC\AVA.Labs\ReactIdentity\Domain\obj\Debug\netcoreapp3.1\Data.Domain.pdb
