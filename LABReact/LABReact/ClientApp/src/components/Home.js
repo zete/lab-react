@@ -6,6 +6,7 @@ class Hello extends Component {
         return <h2>{this.props.title}</h2>
     }
 }
+
 Hello.defaultProps = {
     title: 'Título por defecto'
 }
@@ -58,13 +59,7 @@ export class Home extends Component {
         return (
             <div className="App">
                 <header className="App-header">
-                   
-                    <p>
-                        Aplicación de React de ejemplo.
-        </p>
-
-
-
+                    <p>Aplicación de React de ejemplo.</p>
                 </header>
 
                 <Hello title="Dentro en el componente"></Hello>
